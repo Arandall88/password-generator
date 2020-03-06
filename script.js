@@ -4,16 +4,16 @@ var generateBtn = document.querySelector("#generate");
 // generate password
 function generatePassword();{
  // prompt the user for password length
+   
+ var  createpassword= prompt("Please Create a Password");
 
- var gener = confirm("The question is, do *you* like sushi?");
-    var  createpassword= prompt("Please Create a Password");
 
 
 //  cheeck to see if user entered length 
+// var confirmlength = confirmlength("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz#$%&'()*+,-./:;<=>?@[\]^_`{|}~))
+    var con
 // 4 confirms
-// special characters 
-// numbers 
-// lowercase
+// special characters
 // uppercase
 // generate password, based on user specifications.
 //  user specifications come from confirms 
