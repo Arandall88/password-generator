@@ -4,7 +4,10 @@ var generateBtn = document.querySelector("#generate");
 // generate password
 function generatePassword();{
  // prompt the user for password length
- var   
+
+ var gener = confirm("The question is, do *you* like sushi?");
+    var  createpassword= prompt("Please Create a Password");
+
 
 //  cheeck to see if user entered length 
 // 4 confirms
@@ -18,7 +21,7 @@ function generatePassword();{
 // 
  for(var i= 0; i < 10; i++){
    
- }
+ } 
 
 
   return "something";
