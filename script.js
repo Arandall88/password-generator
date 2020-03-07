@@ -1,21 +1,21 @@
-console.log("");
-
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
+// // Assignment Code
+// var generateBtn = document.querySelector("#generate"); 
+// var uppercase = document.querySelector("#uppercase"); 
+// var lowercase = document.querySelector("#lowercase"); 
+// var numbers = document.querySelector("#numbers"); 
+// var charats = document.querySelector("#charats"); 
 
 // generate password
-function generatePassword();{
+function writePassword(writePassword);{
  // prompt the user for password length
-   
- var  createpassword= prompt("Please Choose a password between 8 and 128 characters");
+ confirm("Can you see me?");
 
 
  //  cheeck to see if user entered length 
-
-  var passwordlength = [""]
-
-
-// 4 confirms
+//  if (passswordlength < 128) {
+//    alert("would you like uppercase letters");
+ }
+// 4 confirms 
 // special characters
 // uppercase
 // generate password, based on user specifications.
