@@ -1,3 +1,5 @@
+console.log("");
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -5,13 +7,14 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword();{
  // prompt the user for password length
    
- var  createpassword= prompt("Please Create a Password");
+ var  createpassword= prompt("Please Choose a password between 8 and 128 characters");
 
 
+ //  cheeck to see if user entered length 
 
-//  cheeck to see if user entered length 
-// var confirmlength = confirmlength("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz#$%&'()*+,-./:;<=>?@[\]^_`{|}~))
-    var con
+  var passwordlength = [""]
+
+
 // 4 confirms
 // special characters
 // uppercase
