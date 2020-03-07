@@ -7,13 +7,13 @@ var charats = document.querySelector("#charats");
 // // generate password
 function writePassword(){ 
   // prompt the user for password length
- passwordlength = prompt("can you see me");
- console.log(testresponse);
+ let passwordlength = prompt("Please choose a password length between 8 and 28 characters");
+ console.log(passwordlength);
   //  cheeck to see if user entered length 
-  if(confirm("password length") == true) {
+  if(x = confirm("password-length") == true) {
     passwordlength = "Password Saved Successfully!";
   } else {
-    passwordlength = "Save Cancelled";
+    window.alert = "Save Cancelled";
   }
   
   // if (passswordlength < 128) {
