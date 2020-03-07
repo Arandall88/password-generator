@@ -1,17 +1,28 @@
 // // Assignment Code
 var generateBtn = document.querySelector("#generate"); 
-// var uppercase = document.querySelector("#uppercase"); 
-// var lowercase = document.querySelector("#lowercase"); 
-// var numbers = document.querySelector("#numbers"); 
-// var charats = document.querySelector("#charats"); 
-// generate password
-function writePassword(writePassword){ 
+var uppercase = document.querySelector("#uppercase"); 
+var lowercase = document.querySelector("#lowercase"); 
+var numbers = document.querySelector("#numbers"); 
+var charats = document.querySelector("#charats"); 
+// // generate password
+function writePassword(){ 
   // prompt the user for password length
- testresponse = prompt("can you see me");
+ passwordlength = prompt("can you see me");
+ console.log(testresponse);
   //  cheeck to see if user entered length 
- //  if (passswordlength < 128) {
- //    alert("would you like uppercase letters");
+  if(confirm("password length") == true) {
+    passwordlength = "Password Saved Successfully!";
+  } else {
+    passwordlength = "Save Cancelled";
+  }
+  
+  // if (passswordlength < 128) {
+  //   alert("would you like uppercase letters");
  // 4 confirms 
+ confirm()
+ confirm()
+ confirm()
+ confirm()
  // special characters
  // uppercase
  // generate password, based on user specifications.
