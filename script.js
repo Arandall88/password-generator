@@ -19,10 +19,10 @@ function writePassword(){
   // if (passswordlength < 128) {
   //   alert("would you like uppercase letters");
  // 4 confirms 
- confirm()
- confirm()
- confirm()
- confirm()
+//  confirm()
+//  confirm()
+//  confirm()
+//  confirm()
  // special characters
  // uppercase
  // generate password, based on user specifications.
